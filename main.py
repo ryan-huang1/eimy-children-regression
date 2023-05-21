@@ -4,9 +4,9 @@ import numpy as np
 from sklearn.preprocessing import PolynomialFeatures
 from sklearn.linear_model import LinearRegression
 
-# The years and children count data
-years = [2008, 2015, 2023]
-children_in_house = [1, 2, 7]
+# The updated years and children count data
+years = [2008, 2015, 2022, 2023]
+children_in_house = [1, 2, 80, 85]
 
 # Transform the list of years to a 2D array for sklearn
 X = np.array(years).reshape(-1, 1)
